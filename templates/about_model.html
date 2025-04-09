@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="about">
+    <h2>About the Wildfire Risk Prediction Model</h2>
+    <p>This model predicts wildfire risk based on temperature, humidity, windspeed, rainfall, location, and vegetation type.</p>
+
+    <ul>
+        <li><strong>Model:</strong> Random Forest Classifier</li>
+        <li><strong>Input Format:</strong> Case-insensitive for location and vegetation</li>
+        <li><strong>Output:</strong> Risk Level (Low, Medium, High)</li>
+        <li><strong>Tech Stack:</strong> Flask, scikit-learn, HTML, CSS</li>
+    </ul>
+</section>
+{% endblock %}

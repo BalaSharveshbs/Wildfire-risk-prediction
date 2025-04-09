@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="result">
+    <h2>Prediction Result</h2>
+    <p>🔥 <strong>Wildfire Risk Level:</strong> <span class="risk">{{ risk }}</span></p>
+    <a href="/predict" class="button">Predict Again</a>
+</section>
+{% endblock %}

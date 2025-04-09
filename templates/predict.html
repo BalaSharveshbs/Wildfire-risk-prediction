@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Enter Environmental Details</h2>
+<form method="POST">
+    <label>Temperature:</label>
+    <input type="number" name="temperature" step="0.01" required><br>
+
+    <label>Humidity:</label>
+    <input type="number" name="humidity" step="0.01" required><br>
+
+    <label>Windspeed:</label>
+    <input type="number" name="windspeed" step="0.01" required><br>
+
+    <label>Rainfall:</label>
+    <input type="number" name="rainfall" step="0.01" required><br>
+
+    <label>Location:</label>
+    <input type="text" name="location" required><br>
+
+    <label>Vegetation:</label>
+    <input type="text" name="vegetation" required><br>
+
+    <button type="submit">Predict</button>
+</form>
+{% endblock %}
