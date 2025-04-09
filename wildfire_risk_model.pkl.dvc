@@ -1,0 +1,5 @@
+outs:
+- md5: 30521e56529237979b41acff880666ae
+  size: 590001
+  hash: md5
+  path: wildfire_risk_model.pkl
